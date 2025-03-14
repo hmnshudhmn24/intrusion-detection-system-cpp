@@ -41,25 +41,7 @@ This Intrusion Detection System (IDS) is a network security tool written in C++ 
 - If an IP exceeds a threshold within a short time window, it triggers an alert.
 - Alerts appear in red for better visibility.
 
-## Example Output
-```
-Available network interfaces:
-1. eth0 - Ethernet Interface
-2. wlan0 - Wireless Interface
-Enter the interface number: 1
-[START] Monitoring network on eth0...
-[INFO] Packet captured - Source: 192.168.1.5 | Destination: 192.168.1.1
-[INFO] Packet captured - Source: 192.168.1.5 | Destination: 192.168.1.1
-[ALERT] Possible intrusion detected from 192.168.1.5 at 2025-03-13 12:34:56
-```
-
 ## Notes
 - Requires **root privileges** to capture network traffic.
 - Works best in a **LAN/Wi-Fi network** environment.
 - Can be extended to detect port scans, DoS attacks, etc.
-
-## Disclaimer
-This tool is intended for educational and ethical hacking purposes only. Unauthorized use on networks without permission is illegal.
-
-## Author
-Developed by [Your Name].
